@@ -1,0 +1,44 @@
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6em 0;
+    background-color: var(--black-85);
+    font-family: var(--ff-poppins);
+    box-shadow: 0 0 0 100vh var(--black-85);
+    clip-path: inset(0 -100vh);
+    letter-spacing: 0.5px;
+}
+
+.logoContainer a {
+    color: var(--red);
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.logoContainer span {
+    color: var(--white);
+    font-family: var(--ff-helvetica);
+    font-weight: 400;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.header-links {
+    color: var(--white);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.header-links:is(:hover, :focus) {
+    color: var(--red);
+    transition: var(--transition-300);
+}
