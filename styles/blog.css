@@ -1,53 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
-nav {
-    background: #1c1c1c;
-    height: 80px;
-    opacity: 0.85;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-nav ul {
-    padding: 10px;
-    /* float: right; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 45px;
-    margin-right: 40px;
-    color: white;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 60px;
-    border-radius: 3px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav p.x {
-    color: rgb(253, 43, 6);
-    padding: 40px;
-}
-
-a:active,
-a:hover {
-    color: rgb(253, 43, 6);
-    transform: 0.5s;
-}
-
 div {
     color: white;
+    font-family: var(--ff-poppins);
 }
 
 .container {
-    margin: 80px 0px;
+    margin: 2em 0px;
 }
 
 .container h1 {
@@ -87,37 +45,26 @@ div {
     color: white;
 }
 
-#footer {
-    margin-top: 200px;
-    padding: 20px 20px;
-    background-color: #111;
-    size: 180px;
-}
-
-#footer h4 {
-    color: #777;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    margin-top: 10px;
-}
-
-.const-6 {
-    padding-left: 300px;
-    padding-bottom: 20px;
-}
-
-.cont-5 {
-    padding-left: 600px;
-    padding-top: 60px;
-    display: flex;
-}
-
-.const-9 {
-    padding-bottom: 30px;
-}
-
 @media (max-width: 1175px) {
     .container-flex {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 660px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .container h1 {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .container h1 {
+        font-size: 1rem;
     }
 }

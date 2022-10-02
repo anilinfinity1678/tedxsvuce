@@ -20,6 +20,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 2px solid greenyellow; */
 }
 
 html {
@@ -27,10 +28,15 @@ html {
 }
 
 body {
-    width: min(90%, 1400px);
+    width: min(100%, 1400px);
     margin-inline: auto;
     background-color: var(--black);
     overflow-x: hidden;
+}
+
+main {
+    width: min(90%, 1400px);
+    margin-inline: auto;
 }
 
 a {
